@@ -1,6 +1,6 @@
 import UserProfile from './pages/userProfile';
 import Search from './pages/search';
-
+import TweetComponent from './pages/tweet';
 function App() {
   // function createContentForScroll() {
   //   const body = document.body;
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div className='bg-slate-500 w-screen h-screen justify-center items-center flex'>
-        <Search />
+        <TweetComponent />
       </div>
     </>
 
