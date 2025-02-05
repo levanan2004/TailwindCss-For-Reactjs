@@ -7,9 +7,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: "Poppins",
-        merriweather: "Merriweather",
-      }
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+        // Bạn có thể thêm các nhóm font khác nếu cần
+        serif: ['Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+      },
     },
   },
   plugins: [],
